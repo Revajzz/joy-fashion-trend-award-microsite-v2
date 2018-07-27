@@ -1,0 +1,33 @@
+.category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .header {
+    background: none;
+
+    h1 {
+      font-style: italic;
+      text-align: center;
+    }
+  }
+
+  .navs {
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin: 1em;
+      border: 2px solid #f399b5;
+      padding: 1em 2.5em;
+      color: #f399b5;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    span:hover {
+      background:  #f399b5;
+      color: #fff;
+    }
+  }
+}
